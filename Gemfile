@@ -25,3 +25,4 @@ group :development do
 end
 
 gem 'devise', '~> 4.3'
+gem 'gritter', '~> 1.2'
