@@ -96,10 +96,10 @@ GEM
       railties (>= 3.2, < 5.2)
     erubis (2.7.0)
     execjs (2.7.0)
-    factory_girl (4.9.0)
+    factory_bot (4.8.2)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.9.0)
-      factory_girl (~> 4.9.0)
+    factory_bot_rails (4.8.2)
+      factory_bot (~> 4.8.2)
       railties (>= 3.0.0)
     ffi (1.9.18)
     globalid (0.4.1)
@@ -255,11 +255,11 @@ DEPENDENCIES
   database_cleaner
   devise (~> 4.3)
   dotenv-rails
-  factory_girl_rails (~> 4.9)
+  factory_bot_rails
   gritter (~> 1.2)
   jbuilder (~> 2.0)
   jquery-rails
-  pg (~> 0.15)
+  pg
   puma (~> 3.11, >= 3.11.2)
   pundit (~> 1.1)
   rails (= 4.2.6)
