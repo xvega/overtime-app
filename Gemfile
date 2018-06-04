@@ -32,4 +32,4 @@ gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'puma', '~> 3.11', '>= 3.11.2'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
-gem 'dotenv-rails', :groups => [:development, :test]
+gem 'dotenv-rails', require: 'dotenv/rails-now'
