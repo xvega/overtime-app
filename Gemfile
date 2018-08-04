@@ -11,6 +11,15 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'kaminari'
+gem 'devise', '~> 4.3'
+gem 'gritter', '~> 1.2'
+gem "administrate", "~> 0.2.2"
+gem 'bourbon'
+gem 'pundit', '~> 1.1'
+gem 'puma', '~> 3.11', '>= 3.11.2'
+gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'byebug'
@@ -24,13 +33,3 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
-
-gem 'devise', '~> 4.3'
-gem 'gritter', '~> 1.2'
-gem "administrate", "~> 0.2.2"
-gem 'bourbon'
-gem 'pundit', '~> 1.1'
-gem 'puma', '~> 3.11', '>= 3.11.2'
-gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
-gem 'dotenv-rails', require: 'dotenv/rails-now'
-gem 'rails_12factor'
