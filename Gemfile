@@ -25,7 +25,7 @@ group :development do
   gem 'spring'
 end
 
-gem 'devise', '~> 4.3'
+gem 'devise', git: 'https://github.com/plataformatec/devise'
 gem 'gritter', '~> 1.2'
 gem "administrate", "~> 0.2.2"
 gem 'bourbon'
