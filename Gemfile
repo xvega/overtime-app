@@ -30,7 +30,7 @@ gem 'gritter', '~> 1.2'
 gem "administrate", "~> 0.2.2"
 gem 'bourbon'
 gem 'pundit', '~> 1.1'
-gem 'puma', '~> 3.11', '>= 3.11.2'
+gem 'puma', '~> 4.3'
 gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 gem 'rails_12factor'
